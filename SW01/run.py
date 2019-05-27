@@ -30,8 +30,7 @@ def func():
         #messages will be sent b/w 9am to 9pm only @twilio india
     else:
         print("Will send message when contest will be near")
-schedule.every(1).day.at("14:00").do(func)
-schedule.every(1).day.at("18:00").do(func)
+schedule.every().hour.do(func)
 while True:
     schedule.run_pending()
     time.sleep(60)
