@@ -2,9 +2,9 @@
 #### 1)
 #### You can get List of All Upcoming Codeforces contest  with time in which it is about to start not only this you can set a message reminder for all contest too You have to just click y onadding reminder and run the command
 ```
-nohup python3 -u rough.py &
+nohup python3 -u run.py &
 ```
-#### in your terminal everytime before starting your laptop or you can run following code on terminal so that you dont have to run that command each time you start you laptop
+#### in your terminal everytime before starting your laptop or you can run following code on terminal so that you dont have to run that command each time you start you laptop(Specific for Ubuntu-Gnome)
 ```
 cd .config/autostart
 sudo nano my.desktop
@@ -23,6 +23,7 @@ X-GNOME-Autostart-enabled=true
 
 #### this program will automatically send message to the phone number added in run.py file 4 hours before contest start added in reminder but requirement is your pc should be active atleast 1 time b/w the contest start and 4 hours before it
 #### Requirement is your phone number should be registered on twilio
+#### And you have to add Your account_sid ,auth_token , Both Phone Numbers from which you want to receive and send message in run.py
 ```
 Sent from your Twilio trial account-Contest is about to start in few minutes be ready for it
 ```
@@ -30,5 +31,4 @@ Sent from your Twilio trial account-Contest is about to start in few minutes be 
 #### 2)
 #### This program can return rating,rank,maxRank,maxRating,city,rank as well as title pic of any codeforces user by just entering his username
 #### 3)
-#### Not only all this you can also view name of the last problem submitted by the user as well as
-user friends list by just adding key and secret
+#### Not only all this you can also view name of the last problem submitted by the user as well asuser friends list by just adding key and secret
