@@ -12,8 +12,8 @@ def func():
     k=0
     fil=open('newfile.txt',"r")
     tim=round(time.time())
-    account_sid = 'ACede8a5b1088d181e1fe373c447d8733b'
-    auth_token = 'f9f78c10e78f3dd57e9eb6b6937f9031'
+    account_sid = 'ACed..............................'  #You will find this on your twilio account
+    auth_token = 'f9f7...............................'
     client = Client(account_sid, auth_token)
     for line in fil:
         if(((int(line)-tim)<=15000)and(int(line)-tim)>0):
