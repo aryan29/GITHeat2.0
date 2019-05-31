@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Lazy Stalker</title>
+    <script type="text/javascript" src="{{url_for('static',filename='script.js')}}"></script>
+    	<link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+<h1>The Lazy Stalker</h1>
+<h6>Just enter username to get deatils of the user</h6>
+<form action = "http://localhost:5000/login" method = "post">
+	<p class="input"><input type="text" name="usn"></p>
+	<p class='submit'><input type="submit" name="sub" value="Get Details"></p>
+</form>
+</body>
+</html>

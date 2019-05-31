@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Lazy Stalker</title>
+    <script type="text/javascript" src="{{url_for('static',filename='script.js')}}"></script>
+    	<link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+<h1>The Lazy Stalker</h1>
+<div id="container">
+      <img src={{ans.url}}>
+    <ul>
+        <li>Name {{ans.fname}}  {{ans.lname}}</li>
+        <li>Rating {{ans.rating}}</li>
+        <li>Rank {{ans.rank}}</li>
+        <li>College {{ans.college}}</li>
+        <li>Location {{ans.location}}</li>
+        <li>MaxRating {{ans.maxrating}}</li>
+        <li>MaxRank {{ans.maxrank}}</li>
+    </ul>
+</div>
+<h6>Thanks for trying us</h6>
+</body>
+</html>
