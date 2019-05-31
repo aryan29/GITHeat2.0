@@ -32,3 +32,6 @@ Sent from your Twilio trial account-Contest is about to start in few minutes be 
 #### This program can return rating,rank,maxRank,maxRating,city,rank as well as title pic of any codeforces user by just entering his username
 #### 3)
 #### Not only all this you can also view name of the last problem submitted by the user as well asuser friends list by just adding key and secret
+------------------------------------------------------------------------------------------------------------------------
+#### Edit
+##### I just added a flask app through which you can get details of user you enter on localhost:5000 by just activating server from flash.py
