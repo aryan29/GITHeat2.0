@@ -33,4 +33,4 @@ def func():
 schedule.every().hour.do(func)
 while True:
     schedule.run_pending()
-    time.sleep(60)
+    time.sleep(1)
