@@ -35,3 +35,4 @@ Sent from your Twilio trial account-Contest is about to start in few minutes be 
 ------------------------------------------------------------------------------------------------------------------------
 #### Edit
 ##### I just added a flask app through which you can get details of user you enter on localhost:5000 by just activating server from flash.py
+Note--Most of the Messaging client which comes with autoscheduling which people have used are not free of cost so there is no harm in running a python script in background of your lappy
