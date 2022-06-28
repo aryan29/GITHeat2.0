@@ -1,5 +1,5 @@
 app==0.0.1
-arrow==0.13.2
+arrow==0.15.1
 audioread==2.1.7
 autoenv==1.0.0
 beautifulsoup4==4.7.1
